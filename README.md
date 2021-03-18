@@ -1,7 +1,8 @@
-# Development of a system for modeling the dependence of electricity consumption and economic indicators of the Russian Federation by territories and industries
+# Development of a system for modeling the dependence of electricity consumption and economic indicators
 Digital breakthrough hackathon final (2020) - data science part of the project
 
-6th place out of 25 projects in the final.
+6th place out of 25 projects in the final
+
 ---
 
 ## Demo
@@ -12,7 +13,7 @@ Developed **model for prediciton of energy consumption** using different metrics
 
 Description of models:
 - Model A --- simple one-series multilayer perceptron
-- Model B --- Multi-series multilayer perceptron
+- Model B --- multi-series multilayer perceptron
 
 Using metrics:
 - Power supply reliability assessment
@@ -24,7 +25,7 @@ Description of the table:
 - Output window --- size of output time series
 - Compression --- size of input time series from raw dataset that we replace by mean value
 - Epochs --- number of training epochs
-- RMSE --- Root Mean Square Error
+- Error --- relative error 
 - Validation plot --- plot with blue part of real values and orange part of predicted values
 - Future plot --- plot with prediciton of future energy consumption
 
@@ -59,6 +60,7 @@ pip3 install -r tensorflow requirements.txt
 
 ### Work with Jupyter Notebook
 - Run cell with import
+
 ![](https://i.imgur.com/6DIwIXs.png)
 - Set training parameters
 ![](https://i.imgur.com/Kgc1bLs.png)
